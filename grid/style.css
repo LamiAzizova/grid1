@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+display: grid;
+}
+
+
+
+.container {
+   
+    width: 1170px;
+    margin: 30px auto;
+    display: grid;
+   
+
+}
+
+.box {
+    display: grid;
+    padding: 20px;
+
+}
+
+.first{
+    display: grid;
+    align-items: center;
+    grid-template: 20px  / 500px 1fr 100px;
+    border: 2px solid #000;
+margin-bottom: 20px;
+    
+}
+.first i {
+    margin-right: 15px;
+}
+
+.first h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+.box span {
+    color: rgba(237, 67, 96, 1);
+}
+.first.menu i {
+margin-right: 17px;
+}
+
+
+.second {
+    border: 2px solid #000;
+
+}
+
+
+.second ul {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px;
+    list-style: none;
+    justify-content: center;
+}
+
+.second li {
+    margin-right: 15px;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+
+
+
+.image {
+    display: grid;
+    grid-template-columns: 800px 270px;
+}
+
+.image1 {
+    background-image: url(./hot-post-1\ 1.png);
+    display: grid;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    align-items: flex-end;
+    padding: 30px;
+    height: 500px;
+    width: 750px;
+  
+}
+
+.image2 {
+    background-image: url(./hot-post-3\ 1.png);
+    display: grid;
+    background-repeat: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    align-items: flex-end;
+    padding: 15px;
+    height: 240px;
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+.image3 {
+    background-image: url(./hot-post-2\ 1.png);
+    display: grid;
+    background-repeat: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    align-items: flex-end;
+    padding: 15px;
+    height: 240px;
+    width: 350px;
+}
+
+
+.image h3 {
+    font-size: 12px;
+    font-weight: 700;
+    color: rgba(237, 67, 96, 1);
+}
+
+.image :nth-child(2) {
+    font-size: 25px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.image :nth-child(3) {
+    font-size: 12px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+
+.image-text {
+    display: flex;
+    align-items: center;
+}
+
+.image-text .point {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.image-text :last-child {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+.fourth {
+    width: 1170px;
+    display: grid;
+    padding: 25px;
+    grid-template-columns: repeat(4, 292px);
+   
+    background-color: #1B1C1E;
+}
+
+.callie h3 {
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.callie span {
+    color: rgba(237, 67, 96, 1);
+}
+
+.callie p {
+    color: rgba(151, 152, 155, 1);
+    margin-bottom: 20px;
+}
+
+.callie-socials {
+    color: white;
+}
+
+.categories {
+    width: 200px;
+    height: 200px;
+}
+
+.categories h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.categories p {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(5, 120px);
+   
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 5px;
+}
+
+.categories span {
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+}
+
+/* tags */
+.tags-button {
+    width: 200px;
+    height: 200px;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 60px 80px 70px
+}
+
+.tags h3 {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.tags-button button {
+    border: none;
+    border-radius: 3px;
+    padding: 8px;
+    color: rgba(151, 152, 155, 1);
+    background-color: #323335;
+}
+
+
+.newsletter h3 {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.newsletter p {
+    color: rgba(151, 152, 155, 1);
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.newsletter input {
+    height: 34px;
+width: 256px;
+border-radius: 3px;
+padding: 8px;
+margin-bottom: 20px;
+}
+.newsletter .btn {
+    display: grid;
+    padding: 8px;
+    background-color: rgba(237, 67, 96, 1);
+    color: white;
+    border-radius: 3px;
+}
